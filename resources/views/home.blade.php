@@ -13,7 +13,13 @@
 
     <body>
         
-    
+    <h1>
+        {{$mess}}
+    </h1>
+
+    <a href="{{route('home')}}">Home</a>
+    <a href="{{route('about')}}">About</a>
+
     </body>
     
 </html>
