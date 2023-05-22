@@ -13,21 +13,23 @@
 
     <body>
         
+    <div class="container">
 
-    <a href="{{route('home')}}">Home</a>
-    <a href="{{route('about')}}">About</a>
-
-    <h1>
-        {{$mess}}
-    </h1>
-
-    <ul>
-        @foreach($teachers as $teacher)
-        <li>
-            {{$teacher}}
-        </li>
-        @endforeach
-    </ul>
+        <a href="{{route('home')}}">Home</a>
+        <a href="{{route('about')}}">About</a>
+    
+        <h1>
+            {{$mess}}
+        </h1>
+    
+        <ul>
+            @foreach($teachers as $teacher)
+            <li>
+                {{$teacher}}
+            </li>
+            @endforeach
+        </ul>
+    </div>
 
     </body>
     
